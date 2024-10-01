@@ -1,0 +1,141 @@
+/* main colors:
+    background-color: #fcfffc
+    sidebar back-color: #040f0f
+    sidebar text color: 
+    main back color: #EFEFEF
+    header back color: #fcfffc
+    header text color: #040f0f
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "SF Pro";
+}
+
+header {
+    background-color: #fcfffc;
+    color: #040f0f;
+    margin-left: 210px;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 5%;
+    width: 81%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.srchArea {
+    border-radius: 100px;
+    background-color: #efefef;
+    padding: 5px;
+    height: 70%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.srchInput {
+    border-radius: 100px;
+    height: calc(100% - 10px);
+    background-color: #efefef;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 5px 5px;
+    width: 50%;
+}
+
+.srchArea img {
+    cursor: pointer;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #040f0f;
+    margin: 0px;
+    padding: 40px;
+    color: #fcfffc;
+    height: 100%;
+    width: 130px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sidebar nav a {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    color: #fcfffc;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar nav a img {
+    margin-right: 20px;
+}
+
+.logoutBtn {
+    background-color: #040f0f;
+    border: none;
+    color: #fcfffc;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 110px;
+    left: 40px;
+}
+
+main {
+    background-color: #efefef;
+    height: 100%;
+    margin-left: 210px;
+    margin-top: calc(5% + 40px);
+    padding: 40px 40px;
+}
+
+
+
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'SF Pro';
+    src: url('../sf-pro.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
